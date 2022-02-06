@@ -7,5 +7,5 @@ var userSchema = new Schema({
   city: { type: String },
   state: { type: String },
   pin: { type: Number },
-  user: {},
+  user: Schema.Types.ObjectId,
 });
